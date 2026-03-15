@@ -76,7 +76,7 @@ maju_jaya_data_pipeline
 
 ### 3. Data Warehouse
 
-`sales_datawarehouse.sql` creates warehouse tables.
+`sales_datamart.sql` creates warehouse tables.
 
 ### 4. Data Mart
 
