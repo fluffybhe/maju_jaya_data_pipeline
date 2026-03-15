@@ -54,7 +54,7 @@ maju_jaya_data_pipeline
 │
 ├── sql
 │   ├── sales_datawarehouse.sql
-│   └── sales_datamart.sql
+│   └── service_datamart.sql
 │
 ├── Dockerfile
 ├── docker-compose.yml
@@ -80,7 +80,7 @@ maju_jaya_data_pipeline
 
 ### 4. Data Mart
 
-`sales_datamart.sql` generates analytical tables used for reporting and insights.
+`service_datamart.sql` generates analytical tables used for reporting and insights.
 
 ---
 
