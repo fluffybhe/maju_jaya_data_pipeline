@@ -53,7 +53,7 @@ maju_jaya_data_pipeline
 │   └── clean_data.py
 │
 ├── sql
-│   ├── sales_datawarehouse.sql
+│   ├── sales_datamart.sql
 │   └── service_datamart.sql
 │
 ├── Dockerfile
