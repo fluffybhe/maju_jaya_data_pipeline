@@ -1,0 +1,23 @@
+
+services:
+
+  mysql:
+    image: mysql:8
+    container_name: maju_jaya_mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: maju_jaya_dw
+    ports:
+      - "3306:3306"
+    volumes:
+      - mysql_data:/var/lib/mysql
+
+  pipeline:
+    build: .
+    depends_on:
+      - mysql
+    volumes:
+      - ./data:/data
+
+volumes:
+  mysql_data:
